@@ -1,42 +1,133 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  margin-top: 65px;
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-bottom: 300px;
+}
+
+section {
+  height: 100vh;
+  margin-bottom: 65px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sombra {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+
+/* estilizacao dos cards */
+.cd-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+}
+
+.cd-li {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100px;
+  width: 22%;
   text-align: center;
+  padding: 10px;
+  list-style: none;
+  margin-top: 20px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.cd-img {
+  height: 20px;
+  width: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* status*/
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.stat-box {
+  text-align: center;
+  font-family: 'inter', sans-serif;
 }
 
-.card {
-  padding: 2em;
+.stat-box h2 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #000;
 }
 
-.read-the-docs {
-  color: #888;
+.stat-box h2 span {
+  color: #3498db;
+  font-weight: 1000;
 }
+
+.stat-box p {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+/*Projetos*/
+.projetos {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box-d {
+  display: flex;
+}
+
+.descr {
+  text-align: center;
+  padding: 10px;
+  margin: 0 20px 0 0;
+  border-radius: 50px;
+  background-color: #90d2ff;
+}
+
+.box-p {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.box-p img {
+  height: 256px;
+  width: 400px;
+  border-radius: 50px;
+  transform: scale(0.9);
+  transition: transform 0.4s ease;
+}
+
+.box-p img:hover {
+  transform: scale(1);
+}
+
+/*Home*/
+
+.home {
+  display:flex;
+  background-color: #3498db;
+}
+
+.img-home {
+  height: 300px;
+  border-radius: 50% 50% 46% 46% / 60% 60% 40% 40%;
+}
+ 
