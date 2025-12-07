@@ -33,14 +33,20 @@ a {
 }
 
 .cd-li {
-  border: 1px solid black;
-  border-radius: 5px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 25px;
   height: 100px;
   width: 22%;
   text-align: center;
   padding: 10px;
   list-style: none;
   margin-top: 20px;
+  transform: scale(1);
+  transition: transform 0.6s ease;
+}
+
+.cd-li:hover {
+  transform: scale(1.1);
 }
 
 .cd-img {
