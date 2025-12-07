@@ -9,7 +9,7 @@ function Sobre() {
                     <h4 className="titlle-sobre d-flex">
                         <span>Um pouco sobre mim</span>
                     </h4>
-                    <h1 className="">Desnvolvedor Front-End</h1>
+                    <h1 className="">Tecnologias</h1>
                     <Card />
                 </div>
                 <div className="container">
