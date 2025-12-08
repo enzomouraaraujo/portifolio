@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Sobre from './components/Sobre'
 import Projetos from './components/Projetos'
 import Inicio from './components/Home'
+import Social from './components/Social'
 
 function App () {
   return (
@@ -14,6 +15,7 @@ function App () {
       <Inicio />
       <Sobre />
       <Projetos />
+      <Social />      
     </div>
   );
 }
